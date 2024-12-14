@@ -22,7 +22,7 @@ pip install -r requirements.txt
 
 #### 1. Run the Scrapy spider:
 ```
-scrapy crawl <spider-name>
+scrapy crawl jumiadz_spider
 ```
 #### 2. The data will be inserted into an CSV file.
 
@@ -36,6 +36,9 @@ The csv table includes the following columns:
 - `price`
 - `rating`
 - `rating_count`
+
+## Note:
+This spider and similar projects are intended for learning purposes only. Please ensure you comply with the website’s terms of service and robots.txt when using the spider.
 
 ## License
 This project is licensed under the MIT License.
